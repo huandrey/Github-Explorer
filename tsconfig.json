@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {                      
+    "lib": ["dom", "dom.iterable", "esnext"], 
+    // lib adiciona algumas funcionalidades no typescript                                
+    "allowJs": true,   
+    // avisa que teremos tanto arquivos ts quanto ts                                             
+    "jsx": "react-jsx", 
+    // basicamente fala que estamos usando jsx (html dentro do javascript)                                  
+    "noEmit": true,                                           
+    "strict": true,
+    // modo strict no js                              
+    "moduleResolution": "node", 
+    "resolveJsonModule": true,   
+    // adiciona a possibilidade da gnt importar arquivos json
+    "isolatedModules": true,                           
+    "allowSyntheticDefaultImports": true,     
+    "esModuleInterop": true,                     
+    "skipLibCheck": true,                        
+    "forceConsistentCasingInFileNames": true     
+  },
+  "include": ["src"],
+  // informa que todo codigo da nossa api ta dentro de src
+}
